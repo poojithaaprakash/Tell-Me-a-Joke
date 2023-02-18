@@ -22,7 +22,7 @@ function Joke() {
     return (
       <div className="App">
       <section>
-        <button onClick={getJoke}>Tell me a joke</button>
+        <button onClick={getJoke} >Tell me a joke</button>
         <div className='Joke'>
         {joke}
         </div>

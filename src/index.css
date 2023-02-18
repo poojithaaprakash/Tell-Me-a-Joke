@@ -23,6 +23,10 @@ button {
   margin: 0.5em 0 0.5em 0.5em;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .Joke{
   font-size: 3rem;
   font-weight: 300;
