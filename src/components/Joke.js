@@ -24,7 +24,7 @@ function Joke() {
       <section>
         <button onClick={getJoke} >Tell me a joke</button>
         <div className='Joke'>
-        {joke}
+        <p>{joke}</p>
         </div>
         </section>
       </div>
